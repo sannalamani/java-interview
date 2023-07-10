@@ -13,4 +13,14 @@ class Ceo {
   public String toString() {
     return "Ceo_" + name;
   }
+
+  public String getId() {
+    return id;
+  }
+
+
+  public String getName() {
+    return name;
+  }
+
 }

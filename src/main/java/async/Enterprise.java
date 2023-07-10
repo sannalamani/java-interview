@@ -15,4 +15,20 @@ class Enterprise {
   public String toString() {
     return "Enterprise_" + name;
   }
+
+
+  public void setId(String id) {
+    this.id = id;
+  }
+
+  public String getName() {
+    return name;
+  }
+
+
+
+  public String getCeoId() {
+    return ceo_id;
+  }
+
 }
