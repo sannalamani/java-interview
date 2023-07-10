@@ -1,9 +1,7 @@
 package collection;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
-import java.util.stream.Collectors;
 
 /**
  * You should complete the function in this class
@@ -16,6 +14,7 @@ class CollectionTest {
   /**
    * operation : x -> ((x * 2) + 3) ^ 5
    */
+
   public static List<Double> compute1(List<Integer> input) {
     List<Double> result = new ArrayList<>();
     for (Integer x : input) {

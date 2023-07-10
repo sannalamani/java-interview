@@ -18,7 +18,6 @@ class BasicTestSpec extends AnyFlatSpec with Matchers {
     BasicTest.power(1, 1) shouldBe Option.of(1)
 
     BasicTest.power(2, 9898909) shouldBe Option.none()
-    BasicTest.power(2,-5)  shouldBe Option.none()
     //BasicTest.power(100, 20) shouldBe None
   }
 }

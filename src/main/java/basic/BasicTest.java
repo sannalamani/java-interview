@@ -13,10 +13,12 @@ public class BasicTest {
    */
   public static Option<Integer> power(Integer i, Integer n) {
 
+    //returns None if exponent(n) is less than 0 or larger value
     if (n < 0 || n > 99999) {
       return Option.none();
     }
 
+    //while loop to calculate power of integer(i)
     int result = 1;
     try {
       while (n > 0) {
